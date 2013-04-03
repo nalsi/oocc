@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course xmlns="http://nalsi.us/oocc/terms/1.0/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://nalsi.us/oocc/terms/1.0/ file:////stu05-fsrv.ad.syr.edu/kli18$/Desktop/oocc.xsd">
+    <identifier xmlns="http://purl.org/dc/elements/1.1/">0004</identifier>
+    <title xmlns="http://purl.org/dc/elements/1.1/">Creating Responsive Web Design</title>
+    <institution>
+        <institutionName>Udemy</institutionName>
+        <institutionCourseURL>https://www.udemy.com/creating-responsive-web-design/</institutionCourseURL>
+    </institution>
+    <description xmlns="http://purl.org/dc/elements/1.1/">Learn to create a web design that automatically conforms itself to multiple screen sizes. This course will show you a step-by-step process for creating a design that rearranges content, resizes elements, and adapts itself based on the size of your visitor's screen size.</description>
+    <subject source="LCSH">Web sites</subject>
+    <subject source="LCSH">HTML (Document markup language)</subject>
+    <language xmlns="http://purl.org/dc/elements/1.1/">eng</language>
+    <versionID>0004</versionID>
+    <instructor>
+        <instructorName source="LCSH">Converse, Chris</instructorName>
+        <instructorAffiliation>Codify Design Studio</instructorAffiliation>
+    </instructor>
+    <numOfSessions>5</numOfSessions>
+    <session>
+        <sessionNum>1</sessionNum>
+        <sessionTitle>Getting Started</sessionTitle>
+        <duration>PT5M15S</duration>
+    </session>
+    <session>
+        <sessionNum>2</sessionNum>
+        <sessionTitle>Optimizing Your Web Graphics</sessionTitle>
+        <duration>PT8M</duration>
+    </session>
+    <session>
+        <sessionNum>3</sessionNum>
+        <sessionTitle>Adding HTML for Structure and Content</sessionTitle>
+        <duration>PT13M48S</duration>
+    </session>
+    <session>
+        <sessionNum>4</sessionNum>
+        <sessionTitle>Creating CSS Rules for All Screens</sessionTitle>
+        <duration>PT43M14S</duration>
+    </session>
+    <session>
+        <sessionNum>5</sessionNum>
+        <sessionTitle>Creating CSS Rules for Mobile Screens</sessionTitle>
+        <duration>PT22M2S</duration>
+    </session>
+    <workload>PT1H32M</workload>
+    <cost>Yes</cost>
+    <rights></rights>
+    <otherVersion></otherVersion>
+</course>

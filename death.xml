@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course xmlns="http://nalsi.us/oocc/terms/1.0/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://nalsi.us/oocc/terms/1.0/ file:////stu05-fsrv.ad.syr.edu/kli18$/Desktop/oocc.xsd">
+    <identifier xmlns="http://purl.org/dc/elements/1.1/">0005</identifier>
+    <title xmlns="http://purl.org/dc/elements/1.1/">Death</title>
+    <institution>
+        <institutionName source="LCSH">Yale University</institutionName>
+        <institutionCourseID>PHIL 176</institutionCourseID>
+        <institutionCourseURL>http://oyc.yale.edu/philosophy/phil-176</institutionCourseURL>
+    </institution>
+    <description xmlns="http://purl.org/dc/elements/1.1/">There is one thing I can be sure of: I am going to die. But what am I to make of that fact? This course will examine a number of issues that arise once we begin to reflect on our mortality. The possibility that death may not actually be the end is considered. Are we, in some sense, immortal? Would immortality be desirable? Also a clearer notion of what it is to die is examined. What does it mean to say that a person has died? What kind of fact is that? And, finally, different attitudes to death are evaluated. Is death an evil? How? Why? Is suicide morally permissible? Is it rational? How should the knowledge that I am going to die affect the way I live my life?</description>
+    <subject source="LCSH">Philosophy.</subject>
+    <subject source="LCSH">Death.</subject>
+    <language xmlns="http://purl.org/dc/elements/1.1/">eng</language>
+    <versionID>0005</versionID>
+    <instructor>
+        <instructorName source="LCSH">Kagan, Shelly</instructorName>
+        <instructorAffiliation source="LCSH">Yale University</instructorAffiliation>
+    </instructor>
+    <numOfSessions>26</numOfSessions>
+    <session>
+        <sessionNum>1</sessionNum>
+        <sessionTitle>Course Introduction</sessionTitle>
+        <duration>PT46M3S</duration>
+    </session>
+    <session>
+        <sessionNum>2</sessionNum>
+        <sessionTitle>The Nature of Persons: Dualism vs. Physicalism</sessionTitle>
+        <duration>PT41M37S</duration>
+    </session>
+    <session>
+        <sessionNum>3</sessionNum>
+        <sessionTitle>Arguments for the Existence of the Soul, Part I</sessionTitle>
+        <duration>PT45M47S</duration>
+    </session>
+    <session>
+        <sessionNum>4</sessionNum>
+        <sessionTitle>Introduction to Plato's Phaedo; Arguments for the Existence of the Soul, Part II</sessionTitle>
+        <duration>PT49M3S</duration>
+    </session>
+    <session>
+        <sessionNum>5</sessionNum>
+        <sessionTitle>Arguments for the Existence of the Soul, Part III: Free Will and Near-Death Experiences</sessionTitle>
+        <duration>PT48M1S</duration>
+    </session>
+    <session>
+        <sessionNum>6</sessionNum>
+        <sessionTitle>Arguments for the Existence of the Soul, Part IV; Plato, Part I</sessionTitle>
+        <duration>PT35M41S</duration>
+    </session>
+    <session>
+        <sessionNum>7</sessionNum>
+        <sessionTitle>Plato, Part II: Arguments for the Immortality of the Soul</sessionTitle>
+        <duration>PT46M37S</duration>
+    </session>
+    <session>
+        <sessionNum>8</sessionNum>
+        <sessionTitle>Plato, Part II: Arguments for the Immortality of the Soul (cont.)</sessionTitle>
+        <duration>PT49M53S</duration>
+    </session>
+    <session>
+        <sessionNum>9</sessionNum>
+        <sessionTitle>Plato, Part II: Arguments for the Immortality of the Soul (cont.)</sessionTitle>
+        <duration>PT50M20S</duration>
+    </session>
+    <session>
+        <sessionNum>10</sessionNum>
+        <sessionTitle>Personal Identity, Part I: Identity Across Space and Time and the Soul Theory</sessionTitle>
+        <duration>PT49M49S</duration>
+    </session>
+    <session>
+        <sessionNum>11</sessionNum>
+        <sessionTitle>Personal Identity, Part II: The Body Theory and the Personality Theory</sessionTitle>
+        <duration>PT50M34S</duration>
+    </session>
+    <session>
+        <sessionNum>12</sessionNum>
+        <sessionTitle>Personal Identity, Part III: Objections to the Personality Theory</sessionTitle>
+        <duration>PT51M50S</duration>
+    </session>
+    <session>
+        <sessionNum>13</sessionNum>
+        <sessionTitle>Personal Identity, Part IV: What Matters?</sessionTitle>
+        <duration>PT48M52S</duration>
+    </session>
+    <session>
+        <sessionNum>14</sessionNum>
+        <sessionTitle>What Matters (cont.); The Nature of Death, Part I</sessionTitle>
+        <duration>PT47M17S</duration>
+    </session>
+    <session>
+        <sessionNum>15</sessionNum>
+        <sessionTitle>The Nature of Death (cont.); Believing You Will Die</sessionTitle>
+        <duration>PT44M14S</duration>
+    </session>
+    <session>
+        <sessionNum>16</sessionNum>
+        <sessionTitle>Dying Alone; The Badness of Death, Part I</sessionTitle>
+        <duration>PT49M50S</duration>
+    </session>
+    <session>
+        <sessionNum>17</sessionNum>
+        <sessionTitle>The Badness of Death, Part II: The Deprivation Account</sessionTitle>
+        <duration>PT51M36S</duration>
+    </session>
+    <session>
+        <sessionNum>18</sessionNum>
+        <sessionTitle>The Badness of Death, Part III; Immortality, Part I</sessionTitle>
+        <duration>PT50M34S</duration>
+    </session>
+    <session>
+        <sessionNum>19</sessionNum>
+        <sessionTitle>Immortality Part II; The Value of Life, Part I</sessionTitle>
+        <duration>PT49M</duration>
+    </session>
+    <session>
+        <sessionNum>20</sessionNum>
+        <sessionTitle>The Value of Life, Part II; Other Bad Aspects of Death, Part I</sessionTitle>
+        <duration>PT50M39S</duration>
+    </session>
+    <session>
+        <sessionNum>21</sessionNum>
+        <sessionTitle>Other Bad Aspects of Death, Part II</sessionTitle>
+        <duration>PT49M46S</duration>
+    </session>
+    <session>
+        <sessionNum>22</sessionNum>
+        <sessionTitle>Fear of Death</sessionTitle>
+        <duration>PT47M49S</duration>
+    </session>
+    <session>
+        <sessionNum>23</sessionNum>
+        <sessionTitle>How to Live Given the Certainty of Death</sessionTitle>
+        <duration>PT46M34S</duration>
+    </session>
+    <session>
+        <sessionNum>24</sessionNum>
+        <sessionTitle>Suicide, Part I: The Rationality of Suicide</sessionTitle>
+        <duration>PT45M18S</duration>
+    </session>
+    <session>
+        <sessionNum>25</sessionNum>
+        <sessionTitle>Suicide, Part III: The Morality of Suicide and Course Conclusion</sessionTitle>
+        <duration>PT50M15S</duration>
+    </session>
+    <session>
+        <sessionNum>26</sessionNum>
+        <sessionTitle>Suicide, Part II: Deciding under Uncertainty</sessionTitle>
+        <duration>PT47M46S</duration>
+    </session>
+    <cost>No</cost>
+    <courseMaterial type="Syllabus">http://oyc.yale.edu/philosophy/phil-176#syllabus</courseMaterial>
+    <rights>
+        <dateCopyrighted xmlns="http://purl.org/dc/terms/">2013</dateCopyrighted>
+        <copyrightOwner type="corporate" source="LCSH">Yale University</copyrightOwner>
+        <license type="CC">BY-NC-SA</license>
+    </rights>
+    <otherVersion></otherVersion>
+</course>

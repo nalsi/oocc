@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course xmlns="http://nalsi.us/oocc/terms/1.0/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://nalsi.us/oocc/terms/1.0/ file:////stu05-fsrv.ad.syr.edu/kli18$/Desktop/oocc.xsd">
+    <identifier xmlns="http://purl.org/dc/elements/1.1/">0002</identifier>
+    <title xmlns="http://purl.org/dc/elements/1.1/">Drug Discovery, Development &amp; Commercialization</title>
+    <institution>
+        <institutionName source="LCSH">University of California. School of Medicine at San Francisco. Extended Programs in Medical Education (EPME)
+        </institutionName>
+    </institution>
+    <institution>
+        <institutionName>Coursera</institutionName>
+        <institutionCourseURL>https://www.coursera.org/course/drugdiscovery</institutionCourseURL>
+    </institution>
+    <description xmlns="http://purl.org/dc/elements/1.1/">The University of California San Diego, Skaggs School of Pharmacy and Pharmaceutical Sciences Drug Discovery, Development &amp; Commercialization course focuse on drug discovery, development and commercialization.</description>
+    <subject source="LCSH">Drugs.</subject>
+    <subject source="LCSH">Medicine.</subject>
+    <subject source="LCSH">Biology.</subject>
+    <language xmlns="http://purl.org/dc/elements/1.1/">eng</language>
+    <versionID>0002</versionID>
+    <instructor>
+        <instructorName>Ettouati, Williams S.</instructorName>
+        <instructorAffiliation source="LCSH">University of California, San Diego</instructorAffiliation>
+    </instructor>
+    <instructor>
+        <instructorName>Ma, Joseph D.</instructorName>
+        <instructorAffiliation source="LCSH">University of California, San Diego</instructorAffiliation>
+    </instructor>
+    <date>
+        <startDate type="date">2013-04-19</startDate>
+    </date>
+    <numOfSessions>9</numOfSessions>
+    <session />
+    <workload type="min">27</workload>
+    <workload type="max">36</workload>
+    <cost>No</cost>
+    <rights></rights>
+    <otherVersion></otherVersion>
+</course>

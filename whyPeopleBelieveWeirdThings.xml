@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course xmlns="http://nalsi.us/oocc/terms/1.0/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://nalsi.us/oocc/terms/1.0/ file:////stu05-fsrv.ad.syr.edu/kli18$/Desktop/oocc.xsd">
+    <identifier xmlns="http://purl.org/dc/elements/1.1/">0003</identifier>
+    <title xmlns="http://purl.org/dc/elements/1.1/">Why people believe weird things</title>
+    <institution>
+        <institutionName>TED</institutionName>
+        <institutionCourseURL>http://www.ted.com/talks/michael_shermer_on_believing_strange_things.html</institutionCourseURL>
+    </institution>
+    <description xmlns="http://purl.org/dc/elements/1.1/">Using video and music, skeptic Michael Shermer shows how we convince ourselves to believe -- and overlook the facts.</description>
+    <subject source="LCSH">Belief and doubt.</subject>
+    <language xmlns="http://purl.org/dc/elements/1.1/">eng</language>
+    <versionID>0003</versionID>
+    <instructor>
+        <instructorName source="LCSH">Shermer, Michael.</instructorName>
+        <instructorAffiliation source="LCSH">Skeptics Society</instructorAffiliation>
+    </instructor>
+    <date>
+        <startDate type="date">2006-02</startDate>
+    </date>
+    <numOfSessions>1</numOfSessions>
+    <session>
+        <sessionNum>1</sessionNum>
+        <duration>PT13M29S</duration>
+    </session>
+    <workload>PT13M29S</workload>
+    <cost>No</cost>
+    <rights>
+        <copyrightOwner type="corporate">TED</copyrightOwner>
+    </rights>
+    <otherVersion></otherVersion>
+</course>

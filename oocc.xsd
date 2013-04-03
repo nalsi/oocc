@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema 
+    xmlns="http://nalsi.us/oocc/terms/0.8/" 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/" 
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:dcmitype="http://purl.org/dc/dcmitype/" 
+    targetNamespace="http://nalsi.us/oocc/terms/0.8/" 
+    elementFormDefault="qualified">
+    
+    <xs:annotation>
+        <xs:documentation>
+            This schema is the XML schema of the Open Online Course Core Metadata Version 0.8 developed by Kai Li, who is an MLIS student in iSchool, Syracuse University. To view the documentation of this metadata standard, please visit https://sites.google.com/site/ooccmetadata/.
+        </xs:documentation>
+        <xs:documentation>
+            This work is licensed under the Creative Commons Attribution-NonCommercial License. To view a copy of this license, see the file license.txt, visit http://creativecommons.org/licenses/by/3.0 or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+        </xs:documentation>
+    </xs:annotation>
+    
+    <xs:import 
+        namespace="http://purl.org/dc/elements/1.1/" 
+        schemaLocation="http://dublincore.org/schemas/xmls/qdc/2008/02/11/dc.xsd"/>
+    <xs:import
+        namespace="http://purl.org/dc/terms/"
+        schemaLocation='http://www.dublincore.org/schemas/xmls/qdc/dcterms.xsd'/>
+    
+    <xs:element name="course">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="dc:identifier" maxOccurs="1" minOccurs="1"></xs:element>
+                <xs:element ref="dc:title" maxOccurs="1" minOccurs="1"></xs:element>
+                <xs:element name="institution" maxOccurs="unbounded" minOccurs="1" >
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="institutionName" maxOccurs="1" minOccurs="1">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="source" type="xs:string" use="optional" ></xs:attribute>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="institutionCourseID" type="xs:string" maxOccurs="1" minOccurs="0"></xs:element>
+                            <xs:element name="institutionCourseURL" type="xs:anyURI" maxOccurs="unbounded" minOccurs="0"></xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element ref="dc:description" maxOccurs="1"></xs:element>
+                <xs:element name="subject" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:simpleContent>
+                            <xs:extension base="xs:string">
+                                <xs:attribute name="source" type="xs:string" use="optional" ></xs:attribute>
+                            </xs:extension>
+                        </xs:simpleContent>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element ref="dc:language" minOccurs="1" ></xs:element>
+                <xs:element name="versionID" type="xs:string" minOccurs="1" maxOccurs="1"></xs:element>
+                <xs:element name="instructor" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="instructorName" minOccurs="1" maxOccurs="1">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="source" type="xs:string" use="optional" ></xs:attribute>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="instructorAffiliation" minOccurs="0" maxOccurs="1">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="source" type="xs:string" use="optional" ></xs:attribute>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="date" minOccurs="0" maxOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="startDate" minOccurs="0" maxOccurs="1">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="type" use="required" >
+                                                <xs:simpleType>
+                                                    <xs:restriction base="xs:string">
+                                                        <xs:enumeration value="date"></xs:enumeration>
+                                                        <xs:enumeration value="season"></xs:enumeration>
+                                                    </xs:restriction>
+                                                </xs:simpleType>
+                                            </xs:attribute>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="endDate" minOccurs="0" maxOccurs="1">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="type" use="required" >
+                                                <xs:simpleType>
+                                                    <xs:restriction base="xs:string">
+                                                        <xs:enumeration value="date"></xs:enumeration>
+                                                        <xs:enumeration value="season"></xs:enumeration>
+                                                    </xs:restriction>
+                                                </xs:simpleType>
+                                            </xs:attribute>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="numOfSessions" type="xs:decimal" minOccurs="1" maxOccurs="1"></xs:element>
+                <xs:element name="session" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="sessionNum" type="xs:integer" minOccurs="0" maxOccurs="1"></xs:element>
+                            <xs:element name="sessionTitle" type="xs:string" minOccurs="0" maxOccurs="1"></xs:element>
+                            <xs:element name="duration" minOccurs="0" maxOccurs="1"></xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="workload" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:simpleContent>
+                            <xs:extension base="dcterms:ISO639-3">
+                                <xs:attribute name="type" use="optional">
+                                    <xs:simpleType>
+                                        <xs:restriction base="xs:string">
+                                            <xs:enumeration value="max"></xs:enumeration>
+                                            <xs:enumeration value="min"></xs:enumeration>
+                                        </xs:restriction>
+                                    </xs:simpleType>
+                                </xs:attribute>
+                            </xs:extension>
+                        </xs:simpleContent>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="cost" minOccurs="1" maxOccurs="1">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="Yes"></xs:enumeration>
+                            <xs:enumeration value="No"></xs:enumeration>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="courseMaterial" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:simpleContent>
+                            <xs:extension base="xs:string">
+                                <xs:attribute name="type" type="xs:string" use="optional" ></xs:attribute>
+                            </xs:extension>
+                        </xs:simpleContent>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="rights" minOccurs="1" maxOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element ref="dcterms:dateCopyrighted" minOccurs="0" maxOccurs="1"></xs:element>
+                            <xs:element name="copyrightOwner" minOccurs="0" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="type" use="required">
+                                                <xs:simpleType>
+                                                    <xs:restriction base='xs:string'>
+                                                        <xs:enumeration value="person"></xs:enumeration>
+                                                        <xs:enumeration value="corporate"></xs:enumeration>
+                                                        <xs:enumeration value="family"></xs:enumeration>
+                                                    </xs:restriction>
+                                                </xs:simpleType>
+                                            </xs:attribute>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="license" minOccurs="0" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="type" use="required"></xs:attribute>
+                                            <xs:attribute name="source" use="optional"></xs:attribute>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="otherVersion"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+</xs:schema>

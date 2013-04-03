@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course xmlns="http://nalsi.us/oocc/terms/1.0/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://nalsi.us/oocc/terms/1.0/ file:////stu05-fsrv.ad.syr.edu/kli18$/Desktop/oocc.xsd">
+    <identifier xmlns="http://purl.org/dc/elements/1.1/">0001</identifier>
+    <title xmlns="http://purl.org/dc/elements/1.1/">Intensive Introduction to Computer Science</title>
+    <institution>
+        <institutionName source="LCSH">Harvard university.</institutionName>
+        <institutionCourseID>CSCI E-52</institutionCourseID>
+        <institutionCourseURL>http://www.extension.harvard.edu/open-learning-initiative/intensive-introduction-computer-science</institutionCourseURL>
+    </institution>
+    <description xmlns="http://purl.org/dc/elements/1.1/">This free online computer science course is an introduction to the intellectual enterprises of computer science. Topics include algorithms (their design, implementation, and analysis); software development (abstraction, encapsulation, data structures, debugging, and testing); architecture of computers (low-level data representation and instruction processing); computer systems (programming languages, compilers, operating systems, and databases); and computers in the real world (networks, websites, security, forensics, and cryptography). The course teaches students how to think more carefully and how to solve problems more effectively. Problem sets involve extensive programming in C as well as PHP and JavaScript.</description>
+    <subject source="LCSH">Computer science.</subject>
+    <language xmlns="http://purl.org/dc/elements/1.1/">eng</language>
+    <versionID>0001</versionID>
+    <instructor>
+        <instructorName>Malan, David J.</instructorName>
+        <instructorAffiliation source="LCSH">Harvard university.</instructorAffiliation>
+    </instructor>
+    <date>
+        <startDate type="season">Fall 2012</startDate>
+    </date>
+    <numOfSessions>12</numOfSessions>
+    <session>
+        <sessionNum>1</sessionNum>
+        <sessionTitle>Introduction</sessionTitle>
+    </session>
+    <session>
+        <sessionNum>2</sessionNum>
+        <sessionTitle>C. Source code</sessionTitle>
+    </session>
+    <session>
+        <sessionNum>3</sessionNum>
+        <sessionTitle>Functions</sessionTitle>
+    </session>
+    <session>
+        <sessionNum>4</sessionNum>
+        <sessionTitle>Linear search</sessionTitle>
+    </session>
+    <session>
+        <sessionNum>5</sessionNum>
+        <sessionTitle>Structures</sessionTitle>
+    </session>
+    <session>
+        <sessionNum>6</sessionNum>
+        <sessionTitle>Debugging</sessionTitle>
+    </session>
+    <session>
+        <sessionNum>7</sessionNum>
+        <sessionTitle>Linked lists</sessionTitle>
+    </session>
+    <session>
+        <sessionNum>8</sessionNum>
+        <sessionTitle>Valgrind</sessionTitle>
+    </session>
+    <session>
+        <sessionNum>9</sessionNum>
+    </session>
+    <session>
+        <sessionNum>10</sessionNum>
+        <sessionTitle>DOM</sessionTitle>
+    </session>
+    <session>
+        <sessionNum>11</sessionNum>
+        <sessionTitle>Preprocessing</sessionTitle>
+    </session>
+    <session>
+        <sessionNum>12</sessionNum>
+        <sessionTitle>Enterprise architectures</sessionTitle>
+    </session>
+    <session>
+        <sessionNum>13</sessionNum>
+        <sessionTitle>Exciting conclusion</sessionTitle>
+    </session>
+    <cost>Yes</cost>
+    <courseMaterial type="Syllabus">http://cdn.cs50.net/2012/fall/lectures/0/syllabus.pdf</courseMaterial>
+    <rights />
+    <otherVersion></otherVersion>
+</course>
